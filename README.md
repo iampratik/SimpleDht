@@ -20,10 +20,9 @@ Simple Distributed Hash Table based on Chord
 - not needed to handle insert/query requests while a node is joining. Assumed that insert/query requests will be issued only with a stable system.
 
 - Main Activity :
-   LDump :
-    When touched, this button should dump and display all the <key, value> pairs stored in your local partition of the node.
-    This means that this button can give “@” as the selection parameter to query().
+    - LDump :
+     When touched, this button should dump and display all the <key, value> pairs stored in your local partition of the node.
+     This means that this button can give “@” as the selection parameter to query().
 
-    GDump:
-    When touched, this button should dump and display all the <key, value> pairs stored in your whole DHT. Thus, LDump button is for local dump, and this button (GDump) is for global dump of the entire <key, value> pairs.
-    This means that this button can give “*” as the selection parameter to query().
+    - GDump:
+     When touched, this button should dump and display all the <key, value> pairs stored in your whole DHT. Thus, LDump button is      for local dump, and this button (GDump) is for global dump of the entire <key, value> pairs.This means that this button can       give “*” as the selection parameter to query().
